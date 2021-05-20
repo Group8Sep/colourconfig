@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/colourconfig.dir/main.cpp.o CMakeFiles/colourconfig.dir/Colour.cpp.o -o colourconfig 

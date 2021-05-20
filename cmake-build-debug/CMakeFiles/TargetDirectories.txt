@@ -1,0 +1,3 @@
+/home/developer/CLionProjects/colourconfig/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/developer/CLionProjects/colourconfig/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/developer/CLionProjects/colourconfig/cmake-build-debug/CMakeFiles/colourconfig.dir

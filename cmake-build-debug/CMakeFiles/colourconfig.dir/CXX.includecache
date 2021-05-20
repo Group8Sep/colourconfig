@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/developer/CLionProjects/colourconfig/Colour.cpp
+iostream
+-
+Colour.h
+/home/developer/CLionProjects/colourconfig/Colour.h
+
+/home/developer/CLionProjects/colourconfig/Colour.h
+
+/home/developer/CLionProjects/colourconfig/main.cpp
+iostream
+-
+jsoncpp/json/value.h
+-
+boost/property_tree/json_parser.hpp
+-
+boost/property_tree/ptree.hpp
+-
+Colour.cpp
+/home/developer/CLionProjects/colourconfig/Colour.cpp
+
