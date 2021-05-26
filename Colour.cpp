@@ -7,10 +7,10 @@ using namespace std;
 
 class Colour {
     string colourName;
-    int cyan, magenta, yellow, key;
+    float cyan, magenta, yellow, key;
 
     public:
-        Colour(string name, int c, int m, int y, int k){
+        Colour(string name, float c, float m, float y, float k){
             colourName = name;
             cyan = c;
             magenta = m;
@@ -22,25 +22,25 @@ class Colour {
             return colourName;
         }
 
-        int * getColour(){
-            int colour[4] = {cyan, magenta, yellow, key};
+        float * getColour(){
+            float colour[4] = {cyan, magenta, yellow, key};
 
             return colour;
         }
 
-        int getCyan(){
+        float getCyan(){
             return cyan;
         }
 
-        int getMagenta(){
+        float getMagenta(){
             return magenta;
         }
 
-        int getYellow(){
+        float getYellow(){
             return yellow;
         }
 
-        int getKey(){
+        float getKey(){
             return key;
         }
 };
