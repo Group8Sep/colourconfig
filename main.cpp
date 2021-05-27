@@ -19,12 +19,12 @@ int main() {
 
     vector<Colour> colours = {};
 
-    for(pt::ptree::value_type& v : root.get_child("colours")){
+    for(pt::ptree::value_type& v : root.get_child("defaultColours")){
         string name = v.second.get<string>("colourName");
-        int c = v.second.get<int>("cValue");
-        int m = v.second.get<int>("mValue");
-        int y = v.second.get<int>("yValue");
-        int k = v.second.get<int>("kValue");
+        float c = v.second.get<float>("cValue");
+        float m = v.second.get<float>("mValue");
+        float y = v.second.get<float>("yValue");
+        float k = v.second.get<float>("kValue");
 
         Colour newColour = Colour(name, c, m, y, k);
 
